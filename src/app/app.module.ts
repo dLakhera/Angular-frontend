@@ -25,7 +25,7 @@ import { HomeComponent } from './home/home.component'
 
 // Services
 import { DishService } from './services/dish.service';
-
+import { PromotionsService } from './services/promotions.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,6 +49,7 @@ import { DishService } from './services/dish.service';
     MatButtonModule
   ],
   providers: [
+    PromotionsService,
     DishService
   ],
   bootstrap: [AppComponent]
